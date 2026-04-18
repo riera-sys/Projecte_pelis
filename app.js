@@ -18,7 +18,8 @@ function cargarPeliRandom() {
              <h5 class="card-title">${random.title}</h5>
              <p class="card-text">
             <b>Director:</b> ${random.director}<br>
-            <b>Any:</b> ${random.release_date}
+            <b>Any:</b> ${random.release_date}<br>
+             <b>Puntuació:</b> ${random.rt_score}
         </p>
         <p>${random.description}</p>
     </div>
@@ -50,7 +51,8 @@ function buscarPeli(input) {
         <h5 class="card-title">${peli.title}</h5>
         <p class="card-text">
             <b>Director:</b> ${peli.director}<br>
-            <b>Any:</b> ${peli.release_date}
+            <b>Any:</b> ${peli.release_date}<br>
+             <b>Puntuació:</b> ${peli.rt_score}
         </p>
         <p>${peli.description}</p>
     </div>
